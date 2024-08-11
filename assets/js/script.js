@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-//For email sending
+//For email sending 
 function sendEmail(){
     Email.send({
         Host : "smtp.gmail.com",
