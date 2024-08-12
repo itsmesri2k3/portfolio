@@ -272,10 +272,10 @@ hr {
     position: relative;
 }
 .about-content{
-    height: 500px;
+ 
     padding: 10px;
     position: relative;
-    overflow-y: scroll;
+    
 }
 P{
     color: rgb(161, 161, 161);
@@ -394,10 +394,10 @@ P{
 }
 .frame{
     padding-right: 10px;
-    height: 460px;
+  
     margin: 10px;
     position: relative;
-    overflow-y: scroll;
+ 
 }
 .iframe-container {
     position: relative;
