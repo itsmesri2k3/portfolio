@@ -56,6 +56,7 @@
         visibility: visible;
         position: static; /* Revert position if needed */
     }
+   
 }
 
 /* Show profile-2 when viewport width is less than 1979px */
@@ -98,11 +99,11 @@ body {
 .dp-2 {
     background-color: gray;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    height: 150px;
-    max-height: 150px;
+    height: 100px;
+    max-height: 100px;
     min-height: 50px;
-    width: 150px;
-    max-width: 150px;
+    width: 100px;
+    max-width: 100px;
     min-width: 50px;
     border-radius: 20px;
     overflow: hidden;
@@ -112,8 +113,8 @@ body {
 }
 .dp-2 img {
     position: relative; 
-    height: 150px;
-    max-height: 150px;
+    height: 100px;
+    max-height: 100px;
     min-height: 50px;
 }
 #highlight {
