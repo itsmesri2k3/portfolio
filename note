@@ -1,0 +1,29 @@
+   <script>
+        function toggleSection() {
+            const section = document.getElementById('toggle-section');
+            if (section.style.display === 'none') {
+                section.style.display = 'block';
+            } else {
+                section.style.display = 'none';
+            }
+        }
+    </script>
+    
+    .toggle-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #f3bb61;
+        color: #121212;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+       
+    }
+    #toggle-section {
+overflow: hidden;
+height: auto;
+opacity: 1;
+transition: height 2s ease-out, opacity 2s ease-out;
+}

@@ -36,3 +36,7 @@ function sendEmail(){
     );
 }
 
+function show() {
+    const section = document.getElementById('pop-up');
+    section.classList.toggle('show');
+}
