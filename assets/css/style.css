@@ -48,6 +48,13 @@
     visibility: hidden;
     position: absolute; /* Ensure they do not take space in layout */
 }
+@media (max-width: 500px) {
+    .menu{
+        opacity: 0;
+        visibility: hidden;
+        position: absolute; 
+    }
+}
 
 /* Show profile when viewport width is 1979px or wider */
 @media (min-width: 1260px) {
@@ -233,7 +240,7 @@ hr {
     justify-content: end;
     display: flex;
     position: relative;
-    z-index: 1;
+  
 }
 .menu-bar{
     background-color: #2B2B2D;
@@ -368,10 +375,10 @@ P{
     border: 2px solid #383838;
     border-radius: 10px;
     text-align: center;
-    width: 365px;
+    width: 265px;
 }
 .project-profile{
-    width: 340px;
+    width: 240px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border: 2px solid #383838;
@@ -394,10 +401,10 @@ P{
 }
 .frame{
     padding-right: 10px;
-  
+    height: 460px;
     margin: 10px;
     position: relative;
- 
+    overflow-y: scroll;
 }
 .iframe-container {
     position: relative;
