@@ -48,6 +48,7 @@
     visibility: hidden;
     position: absolute; /* Ensure they do not take space in layout */
 }
+
 @media (max-width: 500px) {
     .menu{
         opacity: 0;
