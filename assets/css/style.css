@@ -49,33 +49,39 @@
     position: absolute; /* Ensure they do not take space in layout */
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .menu{
         opacity: 0;
         visibility: hidden;
         position: absolute; 
     }
-    /* #home, #resume, #project, #contact {
-        padding: 10px;
-    } */
+    .menu-bar{
+        display: none;
+    }
+    .manubar-2{
+        opacity: 1;
+        visibility: visible;
+        position: static;
+    }
+    .manubar-2 {
+        display: flex !important;
+    }
 }
 
-/* Show profile when viewport width is 1979px or wider */
 @media (min-width: 1260px) {
     .profile {
         opacity: 1;
         visibility: visible;
-        position: static; /* Revert position if needed */
+        position: static;
     }
    
 }
 
-/* Show profile-2 when viewport width is less than 1979px */
 @media (max-width: 1260px) {
     .profile-2 {
         opacity: 1;
         visibility: visible;
-        position: static; /* Revert position if needed */
+        position: static; 
     }
 }
 body {
@@ -254,6 +260,28 @@ hr {
 }
 .menu-btn{
     padding: 20px;
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+}
+.manubar-2{
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    display: none;
+}
+.menu-bar-2{
+    background: rgba(43, 43, 45, 0.5);
+    backdrop-filter: blur(10px); 
+    border-top: 2px solid #383838;
+    border-left: 2px solid #383838;
+    border-right: 2px solid #383838;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 15px;
+    z-index: 5;
+}
+.menu-btn-2{
+    padding: 8px;
     text-decoration: none;
     color: rgb(161, 161, 161);
 }
