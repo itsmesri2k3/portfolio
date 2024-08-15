@@ -50,11 +50,11 @@
 }
 
 @media (max-width: 500px) {
-    /* .menu{
+    .menu{
         opacity: 0;
         visibility: hidden;
         position: absolute; 
-    } */
+    }
     /* #home, #resume, #project, #contact {
         padding: 10px;
     } */
@@ -154,7 +154,6 @@ hr {
     color: transparent;
     -webkit-text-fill-color: transparent;
 }
-
 .show-btn {
     background-color: #2B2B2D;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -235,10 +234,10 @@ hr {
     border-radius: 20px;
     border: 2px solid #383838;
     overflow: hidden;
-    
     max-width: 950px;
     min-width: 300px;
     width: 950px;
+    height: 630px;
 }
 .menu{
     justify-content: end;
@@ -269,24 +268,16 @@ hr {
 .content > div {
     display: none;
 }
-
-#home {
-    display: block;
-}
-
 #home{
+    display: block;
     padding: 10px;
-    max-width: 1000px;
 }
-
 .about{
     position: relative;
 }
 .about-content{
- 
     padding: 10px;
     position: relative;
-    
 }
 P{
     color: rgb(161, 161, 161);
@@ -306,7 +297,6 @@ P{
 }
 #resume{
     padding: 10px;
-    max-width: 1000px;
 }
 .resume-content{
     display: flex;
@@ -370,7 +360,6 @@ P{
 }
 #project{
     padding: 10px;
-    max-width: 1000px;
 }
 .project-container{
     position: relative;
@@ -401,11 +390,10 @@ P{
 }
 #contact{
    padding: 10px;
-   max-width: 1000px;
 }
 .frame{
     padding-right: 10px;
-    height: 460px;
+    height: 500px;
     margin: 10px;
     position: relative;
     overflow-y: scroll;
