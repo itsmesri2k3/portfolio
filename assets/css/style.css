@@ -50,11 +50,14 @@
 }
 
 @media (max-width: 500px) {
-    .menu{
+    /* .menu{
         opacity: 0;
         visibility: hidden;
         position: absolute; 
-    }
+    } */
+    /* #home, #resume, #project, #contact {
+        padding: 10px;
+    } */
 }
 
 /* Show profile when viewport width is 1979px or wider */
@@ -272,7 +275,7 @@ hr {
 }
 
 #home{
-    padding: 40px;
+    padding: 10px;
     max-width: 1000px;
 }
 
@@ -302,7 +305,7 @@ P{
     justify-content: space-around;
 }
 #resume{
-    padding: 40px;
+    padding: 10px;
     max-width: 1000px;
 }
 .resume-content{
@@ -366,7 +369,7 @@ P{
       margin-left: 5px;
 }
 #project{
-    padding: 40px;
+    padding: 10px;
     max-width: 1000px;
 }
 .project-container{
@@ -397,7 +400,7 @@ P{
     -webkit-text-fill-color: transparent;
 }
 #contact{
-   padding: 40px;
+   padding: 10px;
    max-width: 1000px;
 }
 .frame{
