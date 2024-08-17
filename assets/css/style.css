@@ -66,6 +66,9 @@
     .manubar-2 {
         display: flex !important;
     }
+    .menu-btn{
+        padding: 8px !important;
+    }
 }
 
 @media (max-width: 600px) {
@@ -294,11 +297,6 @@ hr {
     align-items: center;
     display: flex;
     flex-direction: row;
-}
-.menu-btn-2{
-    padding: 8px;
-    text-decoration: none;
-    color: rgb(161, 161, 161);
 }
 .menu-btn-2:hover,:focus{
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
