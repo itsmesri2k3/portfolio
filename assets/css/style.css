@@ -71,6 +71,7 @@
 @media (max-width: 600px) {
     .content{
         height: auto !important;
+        margin-bottom: 50px !important;
     }
     .frame{
         height: auto !important;
