@@ -13,12 +13,6 @@
       ); 
     border-radius: 2px;
 }
-/* Remove any :target behavior that could cause scrolling */
-.section:target {
-    scroll-margin-top: 0; /* Prevents scrolling to the target */
-    /* Other styles */
-}
-
 ::selection {
     background-color: #F3BB61;
     color: #000000;

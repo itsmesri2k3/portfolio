@@ -40,24 +40,3 @@ function show() {
     const section = document.getElementById('pop-up');
     section.classList.toggle('show');
 }
-
-document.querySelectorAll('.toggle-button').forEach(button => {
-    button.addEventListener('click', function(event) {
-        event.preventDefault();
-        
-        const targetSection = document.querySelector(this.getAttribute('href'));
-        
-        // Hide other sections and show the target section
-        document.querySelectorAll('.section').forEach(section => {
-            section.style.display = 'none';
-        });
-        targetSection.style.display = 'block';
-        
-        // Manually scroll back to the top of the profile section
-        const profileSection = document.querySelector('#profile'); // Assuming the profile has an ID of 'profile'
-        window.scrollTo({
-            top: profileSection.offsetTop, 
-            behavior: 'smooth'
-        });
-    });
-});
