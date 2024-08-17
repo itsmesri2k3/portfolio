@@ -68,6 +68,15 @@
     }
 }
 
+@media (max-width: 600px) {
+    .content{
+        height: auto !important;
+    }
+    .frame{
+        height: auto !important;
+    }
+}
+
 @media (min-width: 1260px) {
     .profile {
         opacity: 1;
@@ -99,7 +108,7 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.9);
     align-items: center;
     border-radius: 20px;
-    
+    overflow: hidden;
     text-align: center;
     gap: 20px;
     border: 2px solid #383838;
@@ -164,11 +173,13 @@ hr {
     background-color: #2B2B2D;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     color: rgb(161, 161, 161);
-    border-radius: 10px;
+    border-bottom-left-radius: 20px;
     padding: 10px;
     width: fit-content;
     height: fit-content;
-    border: 2px solid #383838;
+    border: none;
+    border-left: 2px solid #383838;
+    border-bottom: 2px solid #383838;
   
 }
 #pop-up {
@@ -274,17 +285,27 @@ hr {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     backdrop-filter: blur(10px); 
     border-top: 2px solid #383838;
-    border-left: 2px solid #383838;
-    border-right: 2px solid #383838;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
     padding: 15px;
-    z-index: 5;
+    z-index: 50;
+    width: 700px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }
 .menu-btn-2{
     padding: 8px;
     text-decoration: none;
     color: rgb(161, 161, 161);
+}
+.menu-btn-2:hover,:focus{
+    background: linear-gradient(to right, #F3BB61, #F2DF7B);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
 }
 .menu-btn:hover,:focus{
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
@@ -477,7 +498,7 @@ input{
     border: 2px solid #383838;
     color: white;
 }
-button{
+.submit-btn button{
     background-color: #2B2B2D;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
