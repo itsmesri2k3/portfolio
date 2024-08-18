@@ -299,22 +299,22 @@ hr {
     display: flex;
     flex-direction: row;
 }
-/* .menu-btn-2:hover,:focus{
+.menu-btn-2:hover,:focus{
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
-} */
-/* .menu-btn:hover,:focus{
+}
+.menu-btn:hover,:focus{
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
-} */
+}
 .content > div {
     display: none;
 }
