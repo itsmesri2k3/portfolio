@@ -35,22 +35,3 @@ function sendEmail(){
       message => alert("Message Send Successfully")
     );
 }
-
-function show() {
-    const section = document.getElementById('pop-up');
-    section.classList.toggle('show');
-}
-
-// Save the scroll position
-window.addEventListener('beforeunload', () => {
-    localStorage.setItem('scrollPosition', window.scrollY);
-});
-
-// Restore the scroll position
-window.addEventListener('load', () => {
-    const scrollPosition = localStorage.getItem('scrollPosition');
-    if (scrollPosition) {
-        window.scrollTo(0, scrollPosition);
-        localStorage.removeItem('scrollPosition');
-    }
-});
