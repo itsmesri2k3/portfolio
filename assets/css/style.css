@@ -75,6 +75,10 @@
 }
 
 @media (max-width: 600px) {
+    body{
+        padding: 10px !important;
+        gap: 10px !important; 
+    }
     .content{
         height: auto !important;
         margin-bottom: 50px !important;
@@ -112,8 +116,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 10px;
-    gap: 10px;
+    padding: 20px;
+    gap: 20px;
 }
 .profile-2 {
     background-color: #252525;
