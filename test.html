@@ -4,328 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
-        * {
-            box-sizing: border-box;
-            font-family: "Protest Riot", sans-serif;
-            font-weight: 500;
-            font-style: normal;
-        }
-        body {
-            background-color: #121212;
-            color: white;
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .profile-2 {
-            background-color: #252525;
-            box-shadow: 0 0 10px rgba(0,0,0,0.9);
-            align-items: center;
-            border-radius: 20px;
-            padding: 20px;
-            margin: 10px;
-            text-align: center;
-            gap: 20px;
-            border: 2px solid #383838;
-            width: 900px;
-            max-width: 900px;
-            min-width: 300px;
-        }
-        .part-2 {
-            display: flex;
-            flex-direction: row;
-            gap: 30px;
-            justify-content: center;
-        }
-        .dp-2 {
-            background-color: gray;
-            box-shadow: 0 0 10px rgba(0,0,0,0.5);
-            height: 100px;
-            max-height: 100px;
-            min-height: 30px;
-            width: 100px;
-            max-width: 100px;
-            min-width: 30px;
-            border-radius: 20px;
-            overflow: hidden;
-            border: 2px solid #383838;
-            justify-content: center;
-            display: flex;
-        }
-        .dp-2 img {
-            position: relative; 
-            height: 100px;
-            max-height: 100px;
-            min-height: 30px;
-        }
-        #highlight {
-            background-color: #2B2B2D;
-            box-shadow: 0 0 10px rgba(0,0,0,0.3);
-            color: rgb(161, 161, 161);
-            border-radius: 10px;
-            padding: 10px;
-            width: fit-content;
-            height: fit-content;
-            border: 2px solid #383838;
-        }
-        hr {
-            border: none;
-            border-top: 2px solid #383838;
-            width: 200px;
-        }
-        #link {
-            background-color: transparent;
-            border-radius: 5px;
-            padding: 10px;
-            border: 2px solid #383838;
-            background: linear-gradient(to right, #F3BB61, #F2DF7B);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            -webkit-text-fill-color: transparent;
-        }
-       
-        .show-btn {
-            background-color: #2B2B2D;
-            box-shadow: 0 0 10px rgba(0,0,0,0.3);
-            color: rgb(161, 161, 161);
-            border-radius: 10px;
-            padding: 10px;
-            width: fit-content;
-            height: fit-content;
-            border: 2px solid #383838;
-          
-        }
-        #pop-up {
-            opacity: 0;
-            visibility: hidden;
-            max-height: 0;
-            overflow: hidden;
-            transition: opacity 0.9s ease, visibility 0.9s ease, max-height 0.9s ease;
-        }
-        #pop-up.show {
-            opacity: 1;
-            visibility: visible;
-            max-height: 450px; 
-        }
+        #project {
+    padding: 10px;
+    background-color: yellow;
+  
+  
+}
+.project-container{
+    position: relative;
+    padding: 10px;
+    background-color: #2B2B2D;
+    border: 2px solid #383838;
+    border-radius: 10px;
+    text-align: center;
+    width: 255px;
+    height: 180px;
+    
+}
+.project-profile{
+    width: 230px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border: 2px solid #383838;
+}
+.view a{
+    position: relative;
+    padding: 10px;
+    background-color: #2B2B2D;
+    border: 2px solid #383838;
+    border-radius: 10px;
+    background: linear-gradient(to right, #F3BB61, #F2DF7B);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.frame2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;  
+}
+#product-body {
+  width: auto;
+  height: auto;
+  background-color: gray;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  border-radius: 20px;
+  padding-top: 80px;
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
     </style>
 </head>
 <body>
- 
-    <div class="profile-2">
-        <div style="display: flex; justify-content: end;"><button class="show-btn" onclick="show()">CONTACT</button></div>
-        <nav class="part-2">
-            <div class="dp-2">
-                <img src="assets/img/No BG Box Pic.png">
+    <div id="project">
+        <div class="frame2" id="product-body">
+            <div class="project-container">
+                <img src="assets/img/project-1.jpg" class="project-profile"><br><br>
+                <div class="view"><a href="https://raamvox-footwear.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i> LIVE DEMO</a></div>
             </div>
-            <div>
-                <h3>SRIRAAM PRABU</h3>
-                <p id="highlight">Full Stack Developer</p>
-            </div>
-        </nav>
-        <section id="pop-up">
-            <br>
-            <hr>
-            <br>
-            <div style="display: flex; justify-content: center;">
-                <nav>
-                    <div style="display: flex; gap: 25px;">
-                        <div style="align-items: center; display: flex;"><i class="fa-regular fa-envelope" id="link" style="padding: 9px;"></i></div>
-                        <div>
-                            <a style="color: rgb(161, 161, 161);">EMAIL</a><br>
-                            <a>sriraamprabu390...</a>
-                        </div>
-                    </div><br>
-                    <div style="display: flex; gap: 25px;">
-                        <div style="align-items: center; display: flex;"><i class="fa-regular fa-user" id="link"></i></div>
-                        <div>
-                            <a style="color: rgb(161, 161, 161);">PHONE</a><br>
-                            <a>+91 9942142328</a>
-                        </div>
-                    </div><br>
-                    <div style="display: flex; gap: 25px;">
-                        <div style="align-items: center; display: flex;"><i class="fa-regular fa-calendar-days" id="link"></i></div>
-                        <div>
-                            <a style="color: rgb(161, 161, 161);">BIRTHDAY</a><br>
-                            <a>November 20, 2003</a>
-                        </div>
-                    </div><br>
-                    <div style="display: flex; gap: 25px;">
-                        <div style="align-items: center; display: flex;"><i class="fa-solid fa-location-dot" id="link" style="padding: 11px;"></i></div>
-                        <div>
-                            <a style="color: rgb(161, 161, 161);">LOCATION</a><br>
-                            <a>Madurai, Tamilnadu</a>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <br>
-            <hr>
-            <nav style="cursor: pointer;">
-                <i class="fa-brands fa-square-github fa-lg"></i>
-                <i class="fa-brands fa-linkedin fa-lg"></i>
-                <i class="fa-brands fa-square-upwork fa-lg"></i>
-            </nav><br>
-        </section>
-    </div>
-    <div class="content">
-        <nav class="menu">
-            <div class="menu-bar">
-                <a class="menu-btn" href="#home">ABOUT</a>
-                <a class="menu-btn" href="#resume">RESUME</a>
-                <a class="menu-btn" href="#project">PROJECT</a>
-                <a class="menu-btn" href="#contact">CONTACT</a>
-            </div>
-        </nav>
-        <div id="home">
-            <nav class="frame">
-                    <h2>About Me</h2><br>
-                  <p>
-                    I'm a Full Stack Web Developer, Web Designer, and Mobile Application Developer from Madurai, India, with a deep passion for creating comprehensive digital solutions. I specialize in developing and designing websites and mobile applications that are visually compelling and highly functional.
-                  </p><br>
-                  <p>
-                    My mission is to bring your ideas to life by building user-centric websites and apps that not only meet your needs but also provide a seamless experience across all devices. I ensure that each project reflects your brand's identity while being intuitive, attractive, and easy to use.
-                  </p><br>
-                  <p>
-                    Throughout my career, I've had the privilege to work on various projects, from intricate web platforms and designs to feature-rich mobile applications, helping numerous brands achieve their digital goals.
-                  </p><br><br>
-                  <h2>What I'm Doing</h2><br>
-                  <nav style="flex-wrap: wrap; display: flex; gap: 20px; justify-content: center;">
-                    <div class="option">
-                        <img src="assets/img/icon-dev.svg" alt="">
-                        <nav>
-                            <h3>Web Development</h3><br>
-                            <p>High-quality development of sites at the professional level.</p>
-                        </nav>
-                    </div>
-                    <div class="option">
-                        <img src="assets/img/icon-design.svg" alt="">
-                        <nav>
-                            <h3>Web Design</h3><br>
-                            <p>The most modern and high-quality design made at a professional level.</p>
-                        </nav>
-                    </div> <div class="option">
-                        <img src="assets/img/icon-app.svg" alt="">
-                        <nav>
-                            <h3>Mobile Application</h3><br>
-                            <p>Professional development of applications for Android platform.</p>
-                        </nav>
-                    </div> <div class="option">
-                        <img src="assets/img/icon-photo.svg" alt="">
-                        <nav>
-                            <h3>Visual Editing</h3><br>
-                            <p>Making high-quality photos of any category at a professional level.</p>
-                        </nav>
-                    </div>
-                  </nav>
-            </nav>
-        </div>
-        <div id="resume">
-            <nav class="frame">
-            <nav class="resume-content">
-            <div class="book">
-                <i class="fa-solid fa-book-open"></i>
-                <nav class="line-1"></nav>
-                <div class="dot"></div>
-                <nav class="line-2"></nav>
-                <div class="dot"></div>
-            </div>
-            <nav>
-                <h2>Education Qualification</h2><br>
-                <h4>Shanmuganathan Engineering College</h4>
-                <p class="year">2021-2025</p>
-                <p>I have completed a B.E in CSE with a strong focus on full stack development, problem-solving, and innovative software solutions. I am eager to apply my skills in real-world projects and contribute to cutting-edge technology.</p><br>
-                
-                <h4>Ideal Matric Higher Scendary School</h4>
-                <p class="year">2019-2021</p>
-                <p>Successfully completed higher secondary education in the Bio-Maths stream, establishing a solid foundation in biological sciences and mathematics, which significantly enhanced my analytical and problem-solving abilities.</p><br><br>
-            </nav>
-            </nav>
-            <nav class="resume-content">
-                <div class="book">
-                    <i class="fa-solid fa-book-open"></i>
-                    <nav class="line-1"></nav>
-                    <div class="dot"></div>
-                    <nav class="line-3"></nav>
-                    <div class="dot"></div>
-                </div>
-                <nav>
-                    <h2>Certifications</h2><br>
-                    <h4>ILIFE TECHNOLOGIES</h4>
-                    <p class="year">Jul-Aug 2024</p>
-                    <h4>Full Stack Development</h4>
-                    <p>Completed a comprehensive Full Stack Development course, gaining expertise in HTML, CSS, Bootstrap, JavaScript, MySQL, and backend Java. Developed skills in both frontend and backend technologies, with practical experience in building responsive and dynamic web applications.</p><br>
-                    <h4> Naan Mudhalvan Program (Microsoft and SAP)</h4>
-                    <p class="year">May 2023</p>
-                    <h4>Web Development</h4>
-                    <p>Completed a specialized course in web development focusing on frontend technologies with Django and PHP in backend Python. Acquired skills in creating dynamic and interactive web applications using these frameworks.</p><br><br>
-                </nav>
-                </nav>
-                <nav class="resume-content">
-                    <div class="book">
-                        <i class="fa-solid fa-book-open"></i>
-                        <nav class="line-1"></nav>
-                        <div class="dot"></div>
-                        <nav class="line-4"></nav>
-                        <div class="dot"></div>
-                    </div>
-                    <nav>
-                        <h2>WorkShop</h2><br>
-                        <h4>Marcello Tech</h4>
-                        <p class="year">Apr 2023</p>
-                        <h4>Mobile App Development with Android Studio</h4>
-                        <p>Participated in a workshop focusing on the mobile app development using Android Studio. Gained foundational knowledge in building and designing Android applications, including essential development tools and techniques.</p><br>
-                        <h4>Marcello Tech</h4>
-                        <p class="year">Oct 2022</p>
-                        <h4>Git and Maven Repository</h4>
-                        <p>Completed a workshop covering Git for version control and Maven for project management. Acquired practical skills in using Git for source code management and Maven for managing dependencies and building Java projects.</p><br><br>
-                    </nav>
-                    </nav>
-            </nav>
-        </div>
-        <div id="project">
-            <nav class="frame">
-                <div class="project-container">
-                    <img src="assets/img/project-1.jpg" class="project-profile"><br><br>
-                    <h2>Raamvox Footwear</h2>
-                    <p>Raamvox Footwear is a demonstration project that highlights my web development expertise. Though not a functional e-commerce site, it exemplifies my ability to create dynamic, responsive, and user-friendly platforms</p><br>
-                    <div class="view"><a href="https://raamvox-footwear.vercel.app/">VIEW</a></div><br>
-                </div>
-            </nav>
-        </div>
-        <div id="contact">
-            <div class="horizontal"></div>
-            <nav class="frame">
-            <div class="iframe-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62883.09595735833!2d78.12282365!3d9.91783685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c582b1189633%3A0xdc955b7264f63933!2sMadurai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1723195222632!5m2!1sen!2sin" frameborder="0" allowfullscreen="" loading="lazy" style="border-radius: 20px; background-color: gray; filter: grayscale(100%) contrast(120%) brightness(50%);"></iframe>
-            </div>
-            <nav class="form-box">
-           <form onsubmit="sendEmail(); reset(); return false;">
-            <h2>Contact Form</h2><br>
-            <div class="box-1">
-                <input type="text" placeholder="Name" id="name" required>
-                <input type="email" placeholder="Email" id="email" required>
-            </div>
-            <div>
-                <input placeholder="Your Message" id="msg" required>
-            </div><br>
-            <div class="submit-btn">
-            <button type="submit"><i class="fa-solid fa-paper-plane"></i> SUBMIT</button>
-            </div>
-           </form>
-           </nav>
-            </nav>
-        </div>
-    </div>
 
-    <script src="https://kit.fontawesome.com/f8e1a90484.js"></script>
-    <script>
-        function show() {
-            const section = document.getElementById('pop-up');
-            section.classList.toggle('show');
-        }
-    </script>
+
+            <div class="project-container">
+                <img src="assets/img/project-1.jpg" class="project-profile"><br><br>
+                <div class="view"><a href="https://raamvox-footwear.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i> LIVE DEMO</a></div>
+            </div>
+            <div class="project-container">
+                <img src="assets/img/project-1.jpg" class="project-profile"><br><br>
+                <div class="view"><a href="https://raamvox-footwear.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i> LIVE DEMO</a></div>
+            </div>
+            <div class="project-container">
+                <img src="assets/img/project-1.jpg" class="project-profile"><br><br>
+                <div class="view"><a href="https://raamvox-footwear.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i> LIVE DEMO</a></div>
+            </div>
+            <div class="project-container">
+                <img src="assets/img/project-1.jpg" class="project-profile"><br><br>
+                <div class="view"><a href="https://raamvox-footwear.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i> LIVE DEMO</a></div>
+            </div>
+            <div class="project-container">
+                <img src="assets/img/project-1.jpg" class="project-profile"><br><br>
+                <div class="view"><a href="https://raamvox-footwear.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i> LIVE DEMO</a></div>
+            </div>
+            <div class="project-container">
+                <img src="assets/img/project-1.jpg" class="project-profile"><br><br>
+                <div class="view"><a href="https://raamvox-footwear.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i> LIVE DEMO</a></div>
+            </div>
+            <div class="project-container">
+                <img src="assets/img/project-1.jpg" class="project-profile"><br><br>
+                <div class="view"><a href="https://raamvox-footwear.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i> LIVE DEMO</a></div>
+            </div>
+            <div class="project-container">
+                <img src="assets/img/project-1.jpg" class="project-profile"><br><br>
+                <div class="view"><a href="https://raamvox-footwear.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i> LIVE DEMO</a></div>
+            </div>
+            <div class="project-container">
+                <img src="assets/img/project-1.jpg" class="project-profile"><br><br>
+                <div class="view"><a href="https://raamvox-footwear.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i> LIVE DEMO</a></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

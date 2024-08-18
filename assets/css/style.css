@@ -49,7 +49,11 @@
     position: absolute; 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
+    body{
+        padding: 10px !important;
+        gap: 10px !important; 
+    }
     .menu{
         opacity: 0;
         visibility: hidden;
@@ -72,13 +76,6 @@
     #highlight{
         font-size: 13px;
     }
-}
-
-@media (max-width: 600px) {
-    body{
-        padding: 10px !important;
-        gap: 10px !important; 
-    }
     .content{
         height: auto !important;
         margin-bottom: 50px !important;
@@ -88,8 +85,22 @@
         padding-right: 0 !important;
         margin: 0% !important;
     }
-    #home, #resume, #project, #contact {
+    #home, #resume, #contact {
         padding: 20px !important;
+    }
+    #project{
+        height: auto;
+    }
+    .frame2{
+        height: auto !important;
+        overflow-y: visible;
+    }
+    #product-body{
+        height: auto;
+        
+    }
+    .content{
+        height: auto;
     }
 }
 
@@ -292,7 +303,7 @@ hr {
     border-top: 2px solid #383838;
     padding: 15px;
     z-index: 50;
-    width: 700px;
+    width: 800px;
     height: 50px;
     justify-content: center;
     align-items: center;
@@ -408,32 +419,37 @@ P{
       border-radius: 50%;
       margin-left: 5px;
 }
-#project{
-    padding: 10px;
-    
-}
+
 .project-container{
     position: relative;
     padding: 10px;
     background-color: #2B2B2D;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border: 2px solid #383838;
     border-radius: 10px;
     text-align: center;
     width: 255px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    max-width: 255px;
+    min-width: 100px;
+    height: auto;
+    
 }
 .project-profile{
     width: 230px;
+    max-width: 230px;
+    min-width: 100px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border: 2px solid #383838;
+}
+.project-container img {
+    width: 100%;
 }
 .view a{
     position: relative;
     padding: 10px;
     background-color: #2B2B2D;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border: 2px solid #383838;
     border-radius: 10px;
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
@@ -442,12 +458,31 @@ P{
     color: transparent;
     -webkit-text-fill-color: transparent;
 }
+.frame2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;  
+}
+#product-body {
+  width: auto;
+  height: 510px;
+  
+  border-radius: 20px;
+  padding-top: 80px;
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  overflow-y: scroll;
+}
 #contact{
    padding: 10px;
 }
 .frame{
     padding-right: 10px;
-    height: 500px;
+    height: 510px;
     margin: 10px;
     position: relative;
     overflow-y: scroll;
@@ -521,13 +556,6 @@ input{
 .submit-btn{
     display: flex;
     justify-content: end;
-}
-.horizontal{
-    display: flex;
-    position: relative;
-    width: 930px;
-    height: 1px;
-    background-color: transparent;
 }
 @media (max-width:1000px){
     .box-1{
