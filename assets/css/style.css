@@ -13,10 +13,10 @@
       ); 
     border-radius: 2px;
 }
-/* ::selection {
+::selection {
     background-color: #F3BB61;
     color: #000000;
-} */
+}
 * {
     margin: 0%;
     padding: 0%;
@@ -46,7 +46,7 @@
 .profile, .profile-2 {
     opacity: 0;
     visibility: hidden;
-    position: absolute; /* Ensure they do not take space in layout */
+    position: absolute; 
 }
 
 @media (max-width: 700px) {
@@ -299,7 +299,7 @@ hr {
     display: flex;
     flex-direction: row;
 }
-.menu-btn-2:hover,:focus{
+/* .menu-btn-2:hover,:focus{
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
     background-clip: text;
     -webkit-background-clip: text;
@@ -314,7 +314,7 @@ hr {
     color: transparent;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
-}
+} */
 .content > div {
     display: none;
 }
