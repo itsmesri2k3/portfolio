@@ -102,6 +102,15 @@
     .content{
         height: auto;
     }
+    .line-2{
+        height: 185px !important;
+    }
+    .line-3{
+        height: 220px !important;
+    }
+    .line-4{
+        height: 220px !important;
+    }
 }
 
 @media (min-width: 1260px) {
