@@ -13,10 +13,10 @@
       ); 
     border-radius: 2px;
 }
-/* ::selection {
+::selection {
     background-color: #F3BB61;
     color: #000000;
-} */
+}
 * {
     margin: 0%;
     padding: 0%;
