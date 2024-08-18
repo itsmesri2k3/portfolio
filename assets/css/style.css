@@ -237,7 +237,7 @@ hr {
     border-top: 2px solid #383838;
     width: 200px;
 }
-/* #link {
+#link {
     background-color: transparent;
     border-radius: 5px;
     padding: 10px;
@@ -249,7 +249,7 @@ hr {
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-} */
+}
 .content {
     background-color: #252525;
     box-shadow: 0 0 10px rgba(0,0,0,0.9);
