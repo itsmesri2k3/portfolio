@@ -112,8 +112,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 20px;
-    gap: 20px;
+    padding: 10px;
+    gap: 10px;
 }
 .profile-2 {
     background-color: #252525;
