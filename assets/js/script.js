@@ -35,3 +35,8 @@ function sendEmail(){
       message => alert("Message Send Successfully")
     );
 }
+function show() {
+    const section = document.getElementById('pop-up');
+    section.classList.toggle('show');
+}
+
