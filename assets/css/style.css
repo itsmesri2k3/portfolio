@@ -423,20 +423,21 @@ P{
 .project-container{
     position: relative;
     padding: 10px;
+    margin: 10px;
     background-color: #2B2B2D;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border: 2px solid #383838;
     border-radius: 10px;
     text-align: center;
-    width: 255px;
-    max-width: 255px;
+    width: 280px;
+    max-width: 280px;
     min-width: 100px;
     height: auto;
     
 }
 .project-profile{
-    width: 230px;
-    max-width: 230px;
+    width: 250px;
+    max-width: 250px;
     min-width: 100px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -452,6 +453,7 @@ P{
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border: 2px solid #383838;
     border-radius: 10px;
+    font-size: 13px;
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
     background-clip: text;
     -webkit-background-clip: text;
@@ -468,7 +470,6 @@ P{
 #product-body {
   width: auto;
   height: 510px;
-  
   border-radius: 20px;
   padding-top: 80px;
   padding: 10px;
@@ -508,12 +509,12 @@ form h2{
 }
 form{
     width: 100%;
-    margin: 30px;
+    margin: 10px;
 }
 .form-box{
     display: flex;
     justify-content: center;
-    background-color: #2B2B2D;
+    background-color: transparent;
     border: 2px solid #383838;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border-radius: 15px;
