@@ -300,11 +300,12 @@ hr {
     flex-direction: row;
 }
 .menu-btn-2:hover,:focus{
-    background: linear-gradient(to right, #F3BB61, #F2DF7B);
+    color: #F3BB61;
+
     cursor: pointer;
 }
 .menu-btn:hover,:focus{
-    background: linear-gradient(to right, #F3BB61, #F2DF7B);
+    color: #F3BB61;
     cursor: pointer;
 }
 .content > div {
