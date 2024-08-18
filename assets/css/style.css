@@ -78,6 +78,11 @@
     }
     .frame{
         height: auto !important;
+        padding-right: 0 !important;
+        margin: 0% !important;
+    }
+    #home, #resume, #project, #contact {
+        padding: 20px !important;
     }
 }
 
@@ -409,6 +414,7 @@ P{
 }
 #project{
     padding: 10px;
+    
 }
 .project-container{
     position: relative;
@@ -418,6 +424,9 @@ P{
     border-radius: 10px;
     text-align: center;
     width: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .project-profile{
     width: 230px;
@@ -478,6 +487,7 @@ form{
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border-radius: 15px;
     margin-top: 40px;
+    padding-right: 10px !important;
 }
 .box-1{
     display: flex;
