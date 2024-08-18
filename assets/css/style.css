@@ -514,9 +514,8 @@ form{
 .form-box{
     display: flex;
     justify-content: center;
-    background-color: transparent;
+    background-color: #2B2B2D;
     border: 2px solid #383838;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border-radius: 15px;
     margin-top: 40px;
     padding-right: 10px !important;
