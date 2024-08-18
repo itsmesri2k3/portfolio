@@ -430,7 +430,7 @@ P{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border: 2px solid #383838;
 }
-/* .view a{
+.view a{
     position: relative;
     padding: 10px;
     background-color: #2B2B2D;
@@ -441,7 +441,7 @@ P{
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-} */
+}
 #contact{
    padding: 10px;
 }
@@ -503,7 +503,7 @@ input{
     border: 2px solid #383838;
     color: white;
 }
-/* .submit-btn button{
+.submit-btn button{
     background-color: #2B2B2D;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
@@ -517,7 +517,7 @@ input{
     height: 50px;
     border: 2px solid #383838;
     font-size: medium;
-} */
+}
 .submit-btn{
     display: flex;
     justify-content: end;
