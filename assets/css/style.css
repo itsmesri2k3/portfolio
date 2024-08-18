@@ -352,7 +352,7 @@ P{
     display: flex;
     gap: 10px;
 }
-/* .book{
+.book{
     margin-top: 5px;
     
     background: linear-gradient(to right, #F3BB61, #d3c26a);
@@ -367,7 +367,7 @@ P{
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-} */
+}
 .line-1{
     width: 1.3px;       
     height: 29px;     
@@ -396,7 +396,7 @@ P{
     position: relative; 
     left: 50%; 
 }
-/* .dot{
+.dot{
     background: linear-gradient(
         to right, 
         #F3BB61, 
@@ -407,7 +407,7 @@ P{
       border: 3px solid #383838;
       border-radius: 50%;
       margin-left: 5px;
-} */
+}
 #project{
     padding: 10px;
     
