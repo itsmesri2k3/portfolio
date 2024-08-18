@@ -237,7 +237,7 @@ hr {
     border-top: 2px solid #383838;
     width: 200px;
 }
-#link {
+/* #link {
     background-color: transparent;
     border-radius: 5px;
     padding: 10px;
@@ -249,7 +249,7 @@ hr {
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-}
+} */
 .content {
     background-color: #252525;
     box-shadow: 0 0 10px rgba(0,0,0,0.9);
@@ -299,22 +299,22 @@ hr {
     display: flex;
     flex-direction: row;
 }
-.menu-btn-2:hover,:focus{
+/* .menu-btn-2:hover,:focus{
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
-}
-.menu-btn:hover,:focus{
+} */
+/* .menu-btn:hover,:focus{
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
-}
+} */
 .content > div {
     display: none;
 }
@@ -352,7 +352,7 @@ P{
     display: flex;
     gap: 10px;
 }
-.book{
+/* .book{
     margin-top: 5px;
     
     background: linear-gradient(to right, #F3BB61, #d3c26a);
@@ -367,7 +367,7 @@ P{
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-}
+} */
 .line-1{
     width: 1.3px;       
     height: 29px;     
@@ -396,7 +396,7 @@ P{
     position: relative; 
     left: 50%; 
 }
-.dot{
+/* .dot{
     background: linear-gradient(
         to right, 
         #F3BB61, 
@@ -407,7 +407,7 @@ P{
       border: 3px solid #383838;
       border-radius: 50%;
       margin-left: 5px;
-}
+} */
 #project{
     padding: 10px;
     
@@ -430,7 +430,7 @@ P{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border: 2px solid #383838;
 }
-.view a{
+/* .view a{
     position: relative;
     padding: 10px;
     background-color: #2B2B2D;
@@ -441,7 +441,7 @@ P{
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-}
+} */
 #contact{
    padding: 10px;
 }
@@ -503,7 +503,7 @@ input{
     border: 2px solid #383838;
     color: white;
 }
-.submit-btn button{
+/* .submit-btn button{
     background-color: #2B2B2D;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
@@ -517,7 +517,7 @@ input{
     height: 50px;
     border: 2px solid #383838;
     font-size: medium;
-}
+} */
 .submit-btn{
     display: flex;
     justify-content: end;
