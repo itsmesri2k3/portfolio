@@ -111,6 +111,21 @@
     .line-4{
         height: 220px !important;
     }
+    .dp-2 {
+        height: 100px !important;
+        max-height: 100px !important;
+        width: 100px !important;
+        max-width: 100px !important;
+    }
+    .dp-2 img {
+        height: 100px !important;
+        max-height: 100px !important;
+    }
+    .iframe-container {
+    padding-bottom: 70.25% !important;
+
+    }
+
 }
 
 @media (min-width: 1260px) {
@@ -175,7 +190,7 @@ body {
 }
 .dp-2 img {
     position: relative; 
-    height: 150px;
+    height: 120px;
     max-height: 120px;
     min-height: 50px;
 }
@@ -492,15 +507,16 @@ P{
 }
 .frame{
     padding-right: 10px;
+    padding-left: 5px;
     height: 510px;
-    margin: 10px;
+    margin: 5px;
     position: relative;
     overflow-y: scroll;
 }
 .iframe-container {
     position: relative;
     width: 100%;
-    padding-bottom: 50.25%;
+    padding-bottom: 40.25%;
     height: 0;
     overflow: hidden;
 }
