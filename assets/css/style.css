@@ -161,11 +161,11 @@ body {
 .dp-2 {
     background-color: gray;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    height: 100px;
-    max-height: 100px;
+    height: 120px;
+    max-height: 120px;
     min-height: 50px;
-    width: 100px;
-    max-width: 100px;
+    width: 120px;
+    max-width: 120px;
     min-width: 50px;
     border-radius: 20px;
     overflow: hidden;
@@ -175,8 +175,8 @@ body {
 }
 .dp-2 img {
     position: relative; 
-    height: 100px;
-    max-height: 100px;
+    height: 150px;
+    max-height: 120px;
     min-height: 50px;
 }
 #highlight {
