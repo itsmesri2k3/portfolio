@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 ::-webkit-scrollbar {
     width: 5px; 
 }
@@ -21,7 +21,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: "Protest Riot", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 500;
     font-style: normal;
     
@@ -294,7 +294,7 @@ label{
 .attribution h6 {
     margin: 0;
     font-weight: 100;
-    color: darkgray;
+    color: white;
 }
 
 .attribution h5 {
