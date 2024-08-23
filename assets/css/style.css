@@ -248,12 +248,21 @@ hr {
 .dp {
     background-color: gray;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     border-radius: 20px;
     overflow: hidden;
     margin-top: 30px;
     border: 2px solid #383838;
+    justify-content: center;
+    display: flex;
+}
+.dp img {
+    position: relative; 
+    height: 120px;
+    max-height: 120px;
+    min-height: 50px;
+    display: flex;
 }
 hr {
     border: none;
@@ -273,6 +282,28 @@ hr {
     color: transparent;
     -webkit-text-fill-color: transparent;
 }
+label{
+    display: flex;
+    gap: 3px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.attribution h6 {
+    margin: 0;
+    font-weight: 100;
+    color: darkgray;
+}
+
+.attribution h5 {
+    background: linear-gradient(to right, #F3BB61, #F2DF7B);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
 .content {
     background-color: #252525;
     box-shadow: 0 0 10px rgba(0,0,0,0.9);
@@ -282,7 +313,7 @@ hr {
     max-width: 950px;
     min-width: 300px;
     width: 950px;
-    height: 630px;
+    height: 600px;
 }
 .menu{
     justify-content: end;
@@ -493,7 +524,7 @@ P{
 }
 #product-body {
   width: auto;
-  height: 510px;
+  height: 485px;
   border-radius: 20px;
   padding-top: 80px;
   padding: 10px;
@@ -508,7 +539,7 @@ P{
 .frame{
     padding-right: 10px;
     padding-left: 5px;
-    height: 510px;
+    height: 490px;
     margin: 5px;
     position: relative;
     overflow-y: scroll;
