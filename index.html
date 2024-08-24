@@ -19,8 +19,8 @@
             justify-content: center;
             font-family: "Protest Riot", sans-serif;
             text-align: center;
-            opacity: 1;
-            transition: opacity 1s ease-out;
+            opacity: 0;
+            transition: opacity 1s ease-in; /* Smooth fade-in transition */
         }
 
         .loading {
@@ -118,10 +118,17 @@
        </label>
     </div>
     <script>
+        // Trigger the fade-in effect when the page loads
+        window.onload = function() {
+            document.body.style.opacity = '1';
+        };
+
+        // Fade out the page after 3 seconds
         setTimeout(function() {
             document.body.style.opacity = '0';
         }, 3000);
 
+        // Redirect to another page after the fade-out
         setTimeout(function() {
             window.location.href = 'profile.html';
         }, 4000);

@@ -35,8 +35,14 @@ function sendEmail(){
       message => alert("Message Send Successfully")
     );
 }
+
 function show() {
     const section = document.getElementById('pop-up');
     section.classList.toggle('show');
 }
+
+ // Trigger the fade-in effect when the page loads
+ window.onload = function() {
+    document.body.style.opacity = '1';
+};
 
