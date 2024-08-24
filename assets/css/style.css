@@ -446,14 +446,14 @@ P{
 }
 .line-1{
     width: 1.3px;       
-    height: 29px;     
+    height: 30px;     
     background-color: #383838;
     position: relative; 
     left: 50%; 
 }
 .line-2{
     width: 1.3px;       
-    height: 87px;     
+    height: 86px;     
     background-color: #383838;
     position: relative; 
     left: 50%; 
@@ -467,7 +467,7 @@ P{
 }
 .line-4{
     width: 1.3px;       
-    height: 106px;     
+    height: 107px;     
     background-color: #383838;
     position: relative; 
     left: 50%; 
