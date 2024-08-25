@@ -147,6 +147,9 @@
         visibility: visible;
         position: static;
     }
+    body{
+    padding-top: 3.5% !important;
+    }
    
 }
 
@@ -164,7 +167,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-top: 3.5%;
+    padding: 20px;
     gap: 20px;
     opacity: 0;
     transition: opacity 0.5s ease-in; /* Smooth fade-in transition */
