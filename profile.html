@@ -7,7 +7,7 @@
     <link rel="icon" href="assets/img/Logo S.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body oncontextmenu="return false;">
+<body >
     <div class="profile">
         <div class="dp">
             <img src="assets/img/No BG Box Pic.png" style="position: relative; height: 120px;">
@@ -118,8 +118,8 @@
         <div id="home">
             <nav class="frame">
                 <nav class="resume-content">
-                <div class="book">
-                    <i class="fa-solid fa-book-open"></i>
+                <div class="book" style="font-size: 18px;">
+                    <i class="fa-solid fa-scroll"></i>
                     <nav class="line-1"></nav>
                     <div class="dot"></div>
                     <nav class="line-5"></nav>
@@ -139,8 +139,8 @@
                     Throughout my career, I've had the privilege to work on various projects, from intricate web platforms and designs to feature-rich mobile applications, helping numerous brands achieve their digital goals.
                   </p></div></nav><br><br>
                   <nav class="resume-content">
-                    <div class="book">
-                        <i class="fa-solid fa-book-open"></i>
+                    <div class="book"  style="font-size: 20px;">
+                        <i class="fa-solid fa-gears"></i>
                     </div>
                   <h2>What I'm Doing</h2></nav><br>
                   <nav style="flex-wrap: wrap; display: flex; gap: 20px; justify-content: center;">
@@ -195,8 +195,8 @@
             </nav>
             </nav>
             <nav class="resume-content">
-                <div class="book">
-                    <i class="fa-solid fa-book-open"></i>
+                <div class="book" style="font-size: 20px;">
+                    <i class="fa-solid fa-award"></i>
                     <nav class="line-1"></nav>
                     <div class="dot"></div>
                     <nav class="line-3"></nav>
@@ -215,8 +215,8 @@
                 </nav>
                 </nav>
                 <nav class="resume-content">
-                    <div class="book">
-                        <i class="fa-solid fa-book-open"></i>
+                    <div class="book" style="font-size: 20px;">
+                        <i class="fa-solid fa-medal"></i>
                         <nav class="line-1"></nav>
                         <div class="dot"></div>
                         <nav class="line-4"></nav>
@@ -236,7 +236,7 @@
                     </nav><br>
                     <nav class="resume-content">
                         <div class="book">
-                        <i class="fa-solid fa-book-open"></i>
+                        <i class="fa-solid fa-code"></i>
                         </div>
                     <h2>Skills</h2>
                     </nav><br>
@@ -301,9 +301,10 @@
                             </div></nav>
                 </nav></div>
         <div id="project">
+            <nav style="display: flex; justify-content: start; width: 100%; padding-left: 20px; padding-top: 15px;">
+                <div style="display: flex; gap: 10px;"><div class="book"><i class="fa-solid fa-folder-open"></i></div><h2>Project Gallery</h2></div></nav>
             <div class="frame2" id="product-body">
-                <nav style="display: flex; justify-content: center; width: 100%;">
-                    <h2>Project Showcase Gallery</h2></nav>
+                
                 <div class="project-container">
                     <img src="assets/img/project-1.jpg" class="project-profile"><br>
                     <h3>RaamVox</h3>
@@ -318,13 +319,15 @@
         </div>
         <div id="contact">
             <nav class="frame">
-                <br><h1 style="display: flex; justify-content: center;">Where to Reach Me</h1><br>
+                <nav style="display: flex; justify-content: start; width: 100%;">
+                    <div style="display: flex; gap: 10px;"><div class="book"><i class="fa-solid fa-map-location-dot"></i></div><h2>Where to Reach Me</h2></div></nav><br>
             <div class="iframe-container">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62883.09595735833!2d78.12282365!3d9.91783685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c582b1189633%3A0xdc955b7264f63933!2sMadurai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1723195222632!5m2!1sen!2sin" frameborder="0" allowfullscreen="" loading="lazy" style="border-radius: 20px; background-color: gray; filter: grayscale(100%) contrast(120%) brightness(50%);"></iframe>
             </div>
             <nav class="form-box">
            <form onsubmit="sendEmail(); reset(); return false;">
-            <br><h2>Contact Form</h2><br>
+            <br><nav style="display: flex; justify-content: start; width: 100%; padding-left: 8px;">
+                <div style="display: flex; gap: 10px;"><div class="book"><i class="fa-solid fa-user"></i></div><h2>Contact Form</h2></div></nav><br>
             <div class="box-1">
                 <input type="text" placeholder="Name" id="name" required>
                 <input type="email" placeholder="Email" id="email" required>

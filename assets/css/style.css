@@ -230,7 +230,6 @@ body {
 }
 #highlight {
     background-color: #2B2B2D;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     color: rgb(161, 161, 161);
     border-radius: 8px;
     padding: 10px;
@@ -560,8 +559,8 @@ P{
     border: 2px solid #383838;
     border-radius: 10px;
     text-align: center;
-    width: 280px;
-    max-width: 280px;
+    width: 250px;
+    max-width: 250px;
     min-width: 100px;
     height: auto;
     
@@ -571,7 +570,6 @@ P{
     max-width: 250px;
     min-width: 100px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border: 2px solid #383838;
 }
 .project-container img {
@@ -597,14 +595,14 @@ P{
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;  
+    margin: 10px;
 }
 #product-body {
   width: auto;
-  height: 485px;
+  height: 452px;
   border-radius: 20px;
   padding-top: 80px;
   padding: 10px;
-  margin: 20px;
   display: flex;
   align-items: center;
   overflow-y: scroll;
