@@ -107,10 +107,24 @@
         height: 185px !important;
     }
     .line-3{
-        height: 222px !important;
+        height: 225px !important;
     }
     .line-4{
-        height: 222px !important;
+        height: 225px !important;
+    }
+    .line-5{
+        width: 1.3px;       
+        height: 184px !important;     
+        background-color: #383838;
+        position: relative; 
+        left: 50%; 
+    }
+    .line-6{
+        width: 1.3px;       
+        height: 163px !important;     
+        background-color: #383838;
+        position: relative; 
+        left: 50%; 
     }
     .dp-2 {
         height: 100px !important;
@@ -472,6 +486,48 @@ P{
     position: relative; 
     left: 50%; 
 }
+.line-5{
+    width: 1.3px;       
+    height: 68px;     
+    background-color: #383838;
+    position: relative; 
+    left: 50%; 
+}
+.line-6{
+    width: 1.3px;       
+    height: 67px;     
+    background-color: #383838;
+    position: relative; 
+    left: 50%; 
+}
+.line-7{
+    width: 1.3px;       
+    height: 79px;     
+    background-color: #383838;
+    position: relative; 
+    left: 50%; 
+}
+.line-8{
+    width: 1.3px;       
+    height: 75px;         
+    background-color: #383838;
+    position: relative; 
+    left: 50%; 
+}
+.line-9{
+    width: 1.3px;       
+    height: 75px;         
+    background-color: #383838;
+    position: relative; 
+    left: 50%; 
+}
+.line-10{
+    width: 1.3px;       
+    height: 75px;         
+    background-color: #383838;
+    position: relative; 
+    left: 50%; 
+}
 .dot{
     background: linear-gradient(
         to right, 
@@ -485,17 +541,15 @@ P{
       margin-left: 5px;
 }
 .skill-box{
-    display: flex;
-    justify-content: center;
-}
-.skill{
+    background-color: #2B2B2D;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    width: fit-content;
-    height: fit-content;
     border: 2px solid #383838;
+    border-radius: 10px;
+    padding: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .project-container{
     position: relative;
