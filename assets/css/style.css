@@ -365,11 +365,26 @@ label{
     border-bottom: 2px solid #383838;
     border-bottom-left-radius: 20px;
     padding: 25px;
+    cursor: default;
 }
 .menu-btn{
-    padding: 20px;
+    margin: 0 20px;
     text-decoration: none;
     color: rgb(161, 161, 161);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight{
+    background-color: transparent;
+    border: none;
+    color: rgb(161, 161, 161);
+}
+#one, #five{
+    background: linear-gradient(to right, #F3BB61, #F2DF7B);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .manubar-2{
     justify-content: center;
@@ -391,7 +406,7 @@ label{
     display: flex;
     flex-direction: row;
 }
-.menu-btn-2:hover{
+/* .menu-btn-2:hover{
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
     background-clip: text;
     -webkit-background-clip: text;
@@ -406,7 +421,7 @@ label{
     color: transparent;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
-}
+} */
 .content > div {
     display: none;
 }
