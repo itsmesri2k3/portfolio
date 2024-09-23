@@ -71,6 +71,9 @@
     .manubar-2 {
         display: flex !important;
     }
+    .menu-btn{
+        padding: -10px !important;
+    }
     #highlight{
         font-size: 13px;
     }
