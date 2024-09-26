@@ -25,6 +25,8 @@
     font-family: "Protest Riot", sans-serif;
     font-weight: 500;
     font-style: normal;
+    -webkit-tap-highlight-color: transparent;
+    
     
     /* gold color
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
