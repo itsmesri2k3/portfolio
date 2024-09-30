@@ -37,15 +37,15 @@ document.addEventListener('DOMContentLoaded', function() {
 //     );
 // }
 
-// function show() {
-//     const section = document.getElementById('pop-up');
-//     section.classList.toggle('show');
-// }
+function show() {
+    const section = document.getElementById('pop-up');
+    section.classList.toggle('show');
+}
 
-//  // Trigger the fade-in effect when the page loads
-//  window.onload = function() {
-//     document.body.style.opacity = '1';
-// };
+ // Trigger the fade-in effect when the page loads
+ window.onload = function() {
+    document.body.style.opacity = '1';
+};
 
 // var home = document.getElementById("home");
 // var resume = document.getElementById("resume");
