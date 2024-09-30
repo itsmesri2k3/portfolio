@@ -377,12 +377,12 @@ label{
     cursor: pointer;
 }
 
-#one, #two, #three, #four, #five, #six, #seven, #eight{
+#one, #two, #three, #four, #myLink1, #myLink2, #myLink3, #myLink4{
     background-color: transparent;
     border: none;
     color: rgb(161, 161, 161);
 }
-#one, #five{
+#one, #myLink1{
     background: linear-gradient(to right, #F3BB61, #F2DF7B);
     background-clip: text;
     -webkit-background-clip: text;
