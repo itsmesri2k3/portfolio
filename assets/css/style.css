@@ -49,6 +49,9 @@ html{
       larger
       background-color: #383838; */
 }
+a{
+    color: aliceblue;
+}
 .profile, .profile-2 {
     opacity: 0;
     visibility: hidden;
